@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang='en'>
+    <head>
+        <meta charset="UTF-8"> 
+        <title>Celine Rivera Resume</title>
+        <link rel="stylesheet" type="text/css" href="resume_style.css"/>
+        <style>
+            @font-face {
+                font-family: MyHelvetica;
+                src: local("Helvetica Neue Bold"),
+                 local("HelveticaNeue-Bold"),
+                url(MgOpenModernaBold.ttf);
+                font-weight: bold;
+                }
+                h1 {
+                  border-bottom: 3px solid grey;
+                  background-color: lightgrey;
+                }
+        
+                h2 {
+                  border-bottom: 3px solid grey;
+                  background-color: lightgrey;
+                }
+                
+                </style>
+    </head>
+ 
+    <body>
+        <div class="header">
+            <h1>Celine Rivera</h1>
+            <p>
+            Santa Barbara, CA 93105<br/>
+            cprivera@syr.edu<br/> 
+            <i>Mobile:</i> (805)722-9946
+            </p>
+            
+        </div>
+
+    <section id="Education">
+        <div class="container">
+            <h2>Education</h2>
+        <body>
+            <h3>Syracuse University</h3>
+            <h4>Syracuse, New York</br>08/2017 to 05/2019</br>B.S. Information Management & Technology</h4>
+        </body>
+        </div>
+
+    <section id="Skills">
+         <div class="container">
+            <h2>Skills</h2>
+             <dl>
+                    <dt>-Project Management</dt>
+                    <dt>-Technical Support</dt>
+                    <dt>-Microsoft SharePoint</dt>
+                    <dt>-Microsoft Office Proficient</dt>
+                    <dt>-Microsoft Team System</dt>
+                    <dt>-Microsoft Outlook</dt>
+                    <dt>-Social Media Management</dt>
+                    <dt>-Adobe Photoshop, Acrobat and Illustrator</dt>
+                    <dt>-Verbal and Written Communication</dt> 
+                </dl>
+        </div>
+     <section id="Professional Summary">
+        <div class="container">
+                <h2>Professional Summary</h2>
+
+                <h3>Event Coordinator, TEDx Syracuse University</br>
+                </h3>
+                <h4>Syracuse, New York</br> 08/2018 to Present</h4>
+                <dl> 
+                    <dt>-Helped project teams manage resources and information, assisted with scheduling, planning meetings and project activities.</dt>
+                    <dt>-Organized and maintained events and details in Microsoft Excel and Word documents.</dt>
+                    <dt>-Monitored event activities to ensure that speakers and event attendees were satisfied.</dt>
+                </dl>
+               
+                <h3>IT Intern, FCB Health</br>
+        
+                </h3>
+                <h4>New York, New York</br>   06/2019 to 08/2019</h4>
+                <dl>
+                        <dt>-Worked on tasks involving switch upgrades, website management, and file server migration.</dt>
+                        <dt>-Installed computer systems and software.</dt>
+                        <dt>-Used Interpersonal skills to communicate with employees who face technical issues.</dt> 
+                        <dt>-Projects included performing client MAC and PC builds (Laptops and Desktops), creating a SharePoint site for the Technology Department, and generating a WordPress calendar using MAMP services.</dt>
+                </dl>
+
+                <h3>Front-Desk Receptionist, Tropicana Student Living<br/>
+               
+                </h3>
+                <h4>Santa Barbara, California</br> 05/2018 - 08/2018</h4>
+                <dl>
+                        <dt>-Assisted internal staff with clerical and administrative needs to maximize efficiency and team productivity.</dt> 
+                        <dt>-Greeted incoming visitors and customers professionally and provided friendly, knowledgeable assistance.</dt> 
+                        <dt>-Sorted and distributed mail correspondence between departments and personnel, including parcel packaging, preparation and efficient shipping.</dt> 
+                </dl>
+         </div>
+    <section id="Relevant Projects">
+        <div class="container">
+            <h2>Relevant Projects</h2>
+
+            <h3>Social Media Campaign</h3>
+            <h4>Social Media in the Organization - Spring 2019</h4>
+            <dl>
+                <dt>-Worked in small groups to create a social media presence for a content curation site over a month and a half time period.</dt> 
+                <dt>-Created content on 3 social media applications: Twitter, Facebook, Instagram in addition to creating longer-form content to draw an audience using a blog.</dt> 
+                <dt>-Built up a presence online and attempted to engage and grow a community through social media.</dt> 
+                <dt>-Analyzed the overall effectiveness of their campaign and develop a concluding report involving ROI calculations, data analytics, and user engagement statistics.</dt> 
+                </dl>
+
+            <h3>IT Research Presentation</h3>
+            <h4>Information Technology Management and Administration - Spring 2019</h4>
+            <dl>
+                <dt>-Presented with a case study that framed which type of solution one should select in order to make an informed decision about business service offerings complimented by Amazon Web Servers.</dt> 
+                <dt>-Evaluated upon learned terminology, application of relevant concepts to the problem at hand, research quality, and analysis of the solution.</dt> 
+                <dt>-Analyzed questions on product concerning overall purpose, value, cost, licensing contract, implementation and requirements regarding in order to achieve proper usage.</dt> 	 
+            <dl>
+        </div>
+
+    </body>
+</html>
