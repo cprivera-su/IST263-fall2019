@@ -1,0 +1,36 @@
+ul {
+         margin: 0;
+         width: 35%;
+        padding: 0;
+        list-style-type: none;
+        font-family: "Arial";
+    }
+
+    li {
+            padding: 10px;
+            position: none;
+            list-style-type: none;
+        }
+
+    table{
+        width: 100%;
+        padding: 7px;
+        border-collapse: collapse;
+    }
+
+    td{
+        padding: 10px;
+    }
+    .odd {
+            padding: 10px;
+            position: none;
+            list-style-type: none;
+            background: #f1f1f1;
+        }
+        
+    .even {
+            padding: 10px;
+            position: none;
+            list-style-type: none;
+            background: #e1e1e1;
+        } */
