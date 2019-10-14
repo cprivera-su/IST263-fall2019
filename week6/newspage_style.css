@@ -1,14 +1,13 @@
-.site-header{
-    background-color: #333333;
-    height: 75px;
-    width: 100%;
+header {
+    background: #333;
+    color: #fff;
 }
-
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
 .row {
-    display: flex;
-    flex-direction: row;
-    width: 100%
-    column: 2;   
+    display: flex; 
 }
 .col {
     flex: 1;
@@ -22,10 +21,6 @@ div.header h1 {
 div.header p {
     margin: 0
 }
-.container {
-    width: 1200px;
-    margin: 0 auto;
-}
 img.responsive {
     width: 100%;
     height: auto;
@@ -35,3 +30,5 @@ img.responsive {
     border: 1px solid #ccc;
     padding: 10px;
 }
+body {
+    font-family: 'Source Sans Pro', sans-serif;
