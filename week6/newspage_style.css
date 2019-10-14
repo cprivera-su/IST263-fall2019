@@ -1,0 +1,37 @@
+.site-header{
+    background-color: #333333;
+    height: 75px;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%
+    column: 2;   
+}
+.col {
+    flex: 1;
+}
+div.header p {
+    padding: 5px
+}
+div.header h1 {
+    margin: 5px 0;
+}
+div.header p {
+    margin: 0
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+img.responsive {
+    width: 100%;
+    height: auto;
+}
+.card {
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
