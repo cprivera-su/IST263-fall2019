@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+.header {
+  padding: 45px;
+  text-align: center;
+  background: #4392F1;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: #FAFF6D;
+  color: black;
+}
+
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.side {
+  flex: 30%;
+  background-color: #F7EAE7;
+  padding: 20px;
+}
+
+.main {
+  flex: 70%;
+  background-color: #FBF4F7;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: right;
+  background: #A8E0FF;
+}
+
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div style="background:#FAFF6D;padding:5px">
+  <h4 style="text-align:center">Inside Look at Beautiful, Sunny, Santa Barbara! </h4>
+</div>
+
+<div class="header">
+  <h1>Explore SB, CA</h1>
+  <p>IST 263 <b>Created by</b> Celine Rivera</p>
+</div>
+
+<div class="navbar">
+    <a href="homepage.html" >Home</a>
+    <a href="places.html" >Places to See</a>
+  <a href="#">Cuisine</a>
+  <a href="#">Culture</a>
+</div>
+
+<div class="row">
+  <div class="side">
+    <h2>About Me</h2>
+    <h5>Personal Profile:</h5>
+        <img class="image" src="images/profile.png">
+    <p>Hello, my name is Celine Rivera. Up until college, I have lived my entire life on the West Coast. I was born and raised in Central California, in a town called Santa Barbara. However, I decided to venture off and experience a different life for my college years. For the past three years I have been adjusting myself to the East Coast lifestyle and have been loving my new normal. But, that doesn't mean I don't get homesick from time to time. I have created this site to give you, the reader, a look at my life at home. Enjoy!</p>
+    <h3>More Images</h3>
+    <p>See the beauty that is SB, CA.</p>
+        <img class="image" src="images/boats2.jpg">
+        <img class="image" src="images/rainbow.jpg">
+        <img class="image" src="images/paseonuevo.jpg">
+  </div>
+  <div class="main">
+    <h2>Welcome to My Site</h2>
+    <h5>IST 263 Individual Project</h5>
+    <div class="center-image" style="height:200px;">
+        <img class="image" src="images/field.jpg">
+    <p>Image Above: Santa Barbara City College Track & Field</p>
+    <p>Fun Fact: Had I not made the decision to attend college at Syracuse University, I would have gone to Santa Barbara City College. Santa Barbara City College has been named No. 1 in the Top 50 Best Value Community Colleges in the nation for 2018!</p>
+    <br>
+    <h2>My Mission</h2>
+    <h5>What I want to share...</h5>
+    <img class="image" src="images/courthouse.jpg">
+    <p>Explore my website to discover great places to dine, relax and unwind. There are many beaches located throughout different points in the town. Each beach has their own unique qualities. Santa Barbara also attract millions of tourists every year, many being celebrities looking for a place to getaway for a peaceful weekend. Explore the site and maybe you'll find yourself visiting my town soon!</p>
+  </div>
+</div>
+
+<div class="footer">
+  <h2>Check  More!</h2>
+</div>
+
+</body>
+</html>
