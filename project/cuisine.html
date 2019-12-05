@@ -1,57 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <title>Page Title</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
 <link rel="stylesheet" type="text/css" href="style.css">
-<link href="https://fonts.googleapis.com/css?family=Fjalla+One|Staatliches&display=swap" rel="stylesheet">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-<header>
-  <h1>Explore Santa Barbara, CA</h1>
-  <p>IST 263 <b>Created by</b> Celine Rivera</p>
-</header>
 
-<nav class="navbar">
-    <a href="home.html" >Home</a>
-    <a href="places.html" >Places to See</a>
-    <a href="cuisine.html" >Cuisine</a>
+<div class="container-fluid">
+  <div class="jumbotron">
+    <h1>Explore Santa Barbara, CA</h1>      
+    <p>IST 263 Project Created by Celine Rivera</p>
+  </div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="home.html" >Home</a></li>
+      <li><a href="places.html" >Places to See</a></li>
+      <li><a href="cuisine.html" >Cuisine</a></li>
+    </ul>
+  </div>
 </nav>
-<main>
-<div class="row">
-  <div class="side">
-    <h2>Local Favorites</h2>
-    <h4>Dining with a View!</h4>
-        <img class="image" src="images/cafe1.jpg">
-        <img class="image" src="images/dining.JPG">
-        <img class="image" src="images/fishplace1.jpg">
-        <img class="image" src="images/cito2.JPG">
-        <img class="image" src="images/finneys.JPG">
-        <img class="image" src="images/cito.JPG">
-    
-  </div>
-  <div class="main">
-    <h2>Top Notch Cuisine!</h2>
-    <p>There are many great food places and options to try when in Santa Barbara. There are Asian restaurants, Italian restuarants, Hawaiian steakhouses, Indian restaurants, vegan cafes, smoothie joints, Mexican taquerias, French bistros, coffeehouses, and more to try!   </p>
-    <h2>My Favorite Restaurants</h2>
-    <h3>Image Below: Enterprise Fish Co., Seafood Restaurant</h3>
-    <img class="image" src="images/cafe2.jpg">
-    <br>
-    <p>Due to Santa Barbara being located right on the central coast of California, you know we have amazing, local seafood restaurant! One that I have been going since I was a little girl is the Fish Enterprise. They have been a local favorite for 37 years now, service fresh and whole foods made from scratch everyday. There are many options such as fresh lobster, clam chowder bread bowls, fresh steamed clas and oysters, you name it! My favorite thing to grab before leaving the restuarant is always the fresh salt water taffy! </p>
-    <h3>Image Below: Los Agaves, Mexican Restaurant</h3>
-    <img class="image" src="images/losagaves.JPG">
-    <p>Santa Barbara is an old Spanish style town, covered with some of the best, most authentic Mexican restaurants. My all time favorite place to eat at is Los Agaves. This award-winning restaurant is always the first place I stop at when I am in town. Their menu items include fresh ceviche, molcajetes, fajitas, tacos, homemade sopes and so much more! My mouth is drooling just thinking about this place! This place will always be my hand down favorite! </p>
-  
-  </div>
+
+<div class="row content">
+    <div class="side col-sm-4">
+     
+      <div class="row">
+        <h2>Dining with a View!</h2>
+        <p class="intro">
+          
+            There are many great food places and options to try when in Santa Barbara. There are Asian restaurants, Italian restaurants, Hawaiian steakhouses, Indian restaurants, cafes, smoothie joints, Mexican taquerias, French bistros, coffeehouses, and more to try!
+           </p>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-lg-12">
+          <img class="image img-fluid " src="images/cafe1.jpg" width="370" height="250" alt="cafe"> 
+          </div>
+        <div class="col-sm-12 col-lg-12">
+          <img class="image img-fluid " src="images/dining.JPG" width="370" height="250" alt="dining">
+          </div>
+        <div class="col-sm-12 col-lg-12">
+          <img class="image img-fluid " src="images/fishplace1.jpg" width="370" height="250" alt="fishplace">
+          </div>
+        <div class="col-sm-12 col-lg-12">
+          <img class="image img-fluid " src="images/cito2.JPG" width="370" height="250" alt="montecito">
+          </div>
+        <div class="col-sm-12 col-lg-12">
+          <img class="image img-fluid " src="images/cito.JPG" width="370" height="250" alt="montecitostreets">
+          </div>
+      </div>
+      </div>
+
+
+      <div class="col-sm-8 col-lg-8">
+          <h2>My Favorite Restaurants</h2>
+          <h3>Image Below: Enterprise Fish Co., Seafood Restaurant</h3>
+          <div class="center-image" style="height:200px;">
+              <div class="row">
+                  <div class="col-sm-12 col-lg-12">
+              <img class="img-fluid image" src="images/cafe2.jpg" width="650" height="450" alt="cafes">  
+              <p class="food1">
+                <br>
+                Due to Santa Barbara being located right on the central coast of California, you know we have a fantastic local seafood restaurant! The Fish Enterprise has been a local favorite for 37 years now, serving fresh and whole foods made from scratch every day. There are many options such as fresh lobster, clam chowder bread bowls, fresh steamed clams, and oysters; you name it! My favorite thing to grab before leaving the restaurant is always the fresh saltwater taffy!
+                </p>
+            <h3>Image Below: Los Agaves, Mexican Restaurant</h3>
+            <img class="img-fluid image" src="images/losagaves.JPG" width="650" height="450" alt="losagaves"> 
+            <p class="food2"> 
+                <br>
+                Santa Barbara is an old Spanish style town, covered with some of the best, most authentic Mexican restaurants. My all-time favorite place to eat at is Los Agaves. This award-winning restaurant is always the first place I stop when I am in town. Their menu items include fresh ceviche, molcajetes, fajitas, tacos, homemade sopes, and so much more! My mouth is drooling just thinking about this place! This place will always be my hand down favorite restaurant in town!
+                </p>
+        </div>
+      </div>
+    </div>
 </div>
 </div>
-</main>
-
-<footer>
-  <h3>Come visit beautiful, sunny, Santa Barbara!</h3>
-</footer>
-
+<footer class="container-fluid">
+    <h3>Come visit beautiful, sunny, Santa Barbara!</h3>
+  </footer>
+</div>
 </body>
 </html>
