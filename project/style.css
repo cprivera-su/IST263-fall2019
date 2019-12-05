@@ -1,0 +1,108 @@
+* {
+  font-family: Oswald;
+}
+
+body{
+  background-color:rgb(182, 208, 240);
+}
+
+.jumbotron{
+  text-align: center;
+  background: #4392F1;
+  color: white;
+}
+
+
+header {
+  text-align: center;
+  background: #4392F1;
+  color: white;
+}
+
+.intro {
+  padding-right: 50px;
+  padding-left: 50px;
+  font-size:14px;
+} 
+
+.intro2 {
+  padding-right: 50px;
+  padding-left: 50px;
+  font-size:16px;
+} 
+
+
+.start {
+  padding-right: 60px;
+  padding-left: 60px;
+  font-size:16px;
+} 
+
+.content {
+  padding-right: 60px;
+  padding-left: 60px;
+  font-size:18px;
+} 
+
+.places1 {
+  padding-right: 60px;
+  padding-left: 60px;
+  font-size:16px;
+} 
+
+.food {
+  padding-right: 50px;
+  padding-left: 50px;
+  font-size:14px;
+} 
+
+.food1 {
+  padding-right: 60px;
+  padding-left: 60px;
+  font-size:18px;
+} 
+
+.food2 {
+  padding-right: 60px;
+  padding-left: 60px;
+  font-size:18px;
+} 
+.welcome {
+  padding-right: 80px;
+  padding-left: 60px;
+  font-size:20px;
+} 
+
+.welcome2{
+  padding-right: 60px;
+  padding-left: 60px;
+  font-size:20px;
+} 
+
+.navbar {
+  background-color: #333;
+}
+
+
+.side {
+  background-color: #F7EAE7;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+
+.row {
+  background-color: #F7EAE7;
+  text-align: center;
+}
+
+.content{
+  margin-bottom:15px; 
+}
+
+footer {
+  text-align: center;
+  background: #4392F1;
+  padding:40px;
+  width:100%;
+}
